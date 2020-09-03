@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RapidFire Quiz Module</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/quiz.css">
+        <script defer type="text/javascript" src="/js/quiz.js"></script>
+    </head>
+
+    <body>
+        <nav class="app-nav">
+            <h1 class="app-title" id="app-title"></h1>
+        </nav>
+        
+        <div class="content" id="content">
+            <div class="time-bar">
+                <div class="progress-bar-container" id="progress-bar-container"></div>
+                <div class="time-remaining-container">
+                    <div id="time-remaining" class="time-remaining"></div>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <div class="question" id="question"></div>
+                <div class="options" id="options"></div>                
+            </div>
+        </div>
+        
+        <div class="result" id="result">
+            <div class="score" id="score"></div>
+            <div class="answers-container" id="answers-container">
+                <div class="answer-heading" id="answer-heading"><p>Answers</p></div>
+                <div class="answer-body-container" id="answer-body-container"></div>
+            </div>
+        </div>
+    </body>
+</html>
